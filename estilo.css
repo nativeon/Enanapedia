@@ -1,0 +1,87 @@
+body{
+	background-color: #fdd4ff;
+}
+
+b{
+	background-color: black;
+	color: white;
+}
+
+.footerestilo{
+	margin: 0 auto;
+	box-sizing: content-box;
+	font-size: 0.7em;
+}
+
+.container{
+	text-align: center;
+	width: 85%;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.estilo-titulo{
+	background-color: #ff9ee5;
+
+	text-align: center;
+    font-family: 'Anton', sans-serif;
+	font-size: 2em;
+	font-weight: normal;
+	font-stretch: normal;
+	font-variant: small-caps;
+	color: white;
+
+	padding: 15px;
+
+	text-align: center;
+	margin: 0 auto;
+}
+
+.estilo-a{
+	padding: 10px;
+	box-sizing: content-box;
+	background-color: #ff9ee5;
+	display: inline-block;
+
+	text-align: center;
+    font-family: 'Bebas Neue', cursive;
+	font-size: 1.5em;
+	line-height: 0.9em;
+	font-weight: normal;
+	font-stretch: normal;
+	font-variant: small-caps;
+}
+
+.estilo-b{
+	padding: 15px;
+	box-sizing: content-box;
+	background-color: #ff9ee5;
+	display: inline-block;
+
+	text-align: center;
+    font-family: 'Bebas Neue', cursive;
+	font-size: 1.5em;
+	line-height: 1.2em;
+	font-weight: normal;
+	font-stretch: normal;
+	font-variant: small-caps;
+
+	margin:  5px auto;
+}
+
+.estilo-c{
+	padding: 15px;
+	box-sizing: content-box;
+	background-color: #ff9ee5;
+	display: inline-block;
+
+	text-align: left;
+    font-family: 'Bebas Neue', cursive;
+	font-size: 1.5em;
+	line-height: 1em;
+	font-weight: normal;
+	font-stretch: normal;
+	font-variant: small-caps;
+
+	margin:  5px auto;
+}
