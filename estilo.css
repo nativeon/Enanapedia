@@ -16,8 +16,11 @@ b{
 .container{
 	text-align: center;
 	width: 85%;
+	height: 90%;
 	max-width: 900px;
+	max-height: 1200px;
 	margin: 0 auto;
+
 }
 
 .estilo-titulo{
