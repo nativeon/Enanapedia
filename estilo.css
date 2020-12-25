@@ -1,57 +1,63 @@
-body{
+/*==================================================================================================================
+<body> form ======================================================================================================*/
+
+.form_body{
 	background-color: #fdd4ff;
-	text-align: center;
-	width: 100%;
-	height: 100%;
-	max-width: 900px;
-	max-height: 1200px;
-	margin: 0 auto;
 }
 
-b{
-	background-color: black;
-	color: white;
-}
+/*==================================================================================================================
+<footer> form and text ===========================================================================================*/
 
-.footerestilo{
+.form_footer{
 	margin: 0 auto;
 	box-sizing: content-box;
+
 	font-size: 0.7em;
+	color: black;
 }
 
-.container{
+/*==================================================================================================================
+<div> form =======================================================================================================*/
+
+.form_container{
 	text-align: center;
-	width: 85%;
-	height: 90%;
-	max-width: 900px;
-	max-height: 1200px;
+	width: 90%;
+	max-width: 1500px;
 	margin: 0 auto;
-
 }
 
-.estilo-titulo{
-	background-color: #ff9ee5;
+/*==================================================================================================================
+<H1> form and tex ================================================================================================*/
 
-	text-align: center;
-    font-family: 'Anton', sans-serif;
-	font-size: 2em;
+.form_h1{
+	font-family: 'Anton', sans-serif;
+	font-size: 4em;
 	font-weight: normal;
 	font-stretch: normal;
 	font-variant: small-caps;
 	color: white;
-
-	padding: 15px;
-
+	text-shadow: 2px 2px 0px #d457b2;
 	text-align: center;
+
+	background-color: #ff9ee5;
 	margin: 0 auto;
+	padding-bottom: 8px;
+	box-shadow: 5px 5px 0px 0px #d457b2;
 }
 
-.estilo-a{
+/*==================================================================================================================
+<P> form and tex =================================================================================================*/
+
+.form_p_0{
+	/* Form */
 	padding: 10px;
+	margin: 16px 8px;
 	box-sizing: content-box;
 	background-color: #ff9ee5;
 	display: inline-block;
+	box-shadow: 5px 5px 0px 0px #d457b2;
 
+	/* text style */
 	text-align: center;
     font-family: 'Bebas Neue', cursive;
 	font-size: 1.5em;
@@ -59,31 +65,19 @@ b{
 	font-weight: normal;
 	font-stretch: normal;
 	font-variant: small-caps;
+	color: black;
 }
 
-.estilo-b{
+.form_p_1{
+	/* Form */
 	padding: 15px;
+	margin: 16px 8px;
 	box-sizing: content-box;
 	background-color: #ff9ee5;
 	display: inline-block;
+	box-shadow: 5px 5px 0px 0px #d457b2;
 
-	text-align: center;
-    font-family: 'Bebas Neue', cursive;
-	font-size: 1.5em;
-	line-height: 1.2em;
-	font-weight: normal;
-	font-stretch: normal;
-	font-variant: small-caps;
-
-	margin:  5px auto;
-}
-
-.estilo-c{
-	padding: 15px;
-	box-sizing: content-box;
-	background-color: #ff9ee5;
-	display: inline-block;
-
+	/* text style */
 	text-align: left;
     font-family: 'Bebas Neue', cursive;
 	font-size: 1.5em;
@@ -91,6 +85,40 @@ b{
 	font-weight: normal;
 	font-stretch: normal;
 	font-variant: small-caps;
+	color: black;
+}
 
-	margin:  5px auto;
+.form_p_2{
+	/* Form */
+	padding: 15px;
+	margin: 16px 8px;
+	box-sizing: content-box;
+	background-color: #ff9ee5;
+	display: inline-block;
+	box-shadow: 5px 5px 0px 0px #d457b2;
+
+	/* text style */
+	text-align: center;
+    font-family: 'Bebas Neue', cursive;
+	font-size: 1.5em;
+	line-height: 1.2em;
+	font-weight: normal;
+	font-stretch: normal;
+	font-variant: small-caps;
+	color: black;
+}
+
+/*==================================================================================================================
+<B> form =========================================================================================================*/
+
+.form_b_0{
+	background-color: black;
+	color: white;
+}
+
+/*==================================================================================================================
+<img> form =======================================================================================================*/
+
+.form_img{
+	margin: 8px auto;
 }
